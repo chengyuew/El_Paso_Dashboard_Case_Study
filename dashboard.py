@@ -72,18 +72,7 @@ def welcome():
             st.session_state['dashboard_entered'] = True   
     elif selected2=='PEOPLE':
         st.image('homepage.png')
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Contact:</div>", unsafe_allow_html=True)
-    
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Dr. Kelvin Cheu</div>", unsafe_allow_html=True)
-        
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Professor, Department of Civil Engineering</div>", unsafe_allow_html=True)
-        
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> The University of Texas at El Paso</div>", unsafe_allow_html=True)
-    
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Email: rcheu@utep.edu</div>", unsafe_allow_html=True) 
 
-        # st.write('')  
-##############################################################################################
     
         st.markdown("<div style='text-align: justify; font-size: 20px'> Dr. Ruimin Ke</div>", unsafe_allow_html=True)
         
@@ -94,16 +83,7 @@ def welcome():
         st.markdown("<div style='text-align: justify; font-size: 20px'> Email: rke@utep.edu</div>", unsafe_allow_html=True) 
         st.write('')   
 
-##############################################################################################
-    
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Dr. Jeffrey Weidner</div>", unsafe_allow_html=True)
-        
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Assistant Professor, Department of Civil Engineering</div>", unsafe_allow_html=True)
-        
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> The University of Texas at El Paso</div>", unsafe_allow_html=True)
-    
-        # st.markdown("<div style='text-align: justify; font-size: 20px'> Email: jweidner@utep.edu</div>", unsafe_allow_html=True)  
-        # st.write('')  
+
 
 ##############################################################################################
     
@@ -116,7 +96,6 @@ def welcome():
         st.markdown("<div style='text-align: justify; font-size: 20px'> Email: cwang5@miners.utep.edu</div>", unsafe_allow_html=True)  
         st.write('')  
 
-##############################################################################################
 
 ##############################################################################################
     
